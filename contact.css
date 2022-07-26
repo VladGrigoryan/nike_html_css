@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 80px;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+header img {
+    width: 150px;
+    height: 100%;
+}
+
+header p {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 80px;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header div :last-child {
+    border-bottom: 2px solid red;
+}
+
+header a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+header img {
+    width: 150px;
+    height: 100%;
+}
+
+header p {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact_banner {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.contact_banner iframe {
+    width: 600px;
+    height: 100%;
+    border: 0;
+}
+
+
+footer{
+    text-align: center;
+     margin-top: 50px;
+     align-items: center;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-image: url(https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F211214130242-nike-rtfkt-121421.jpeg);
+     height: 250px;
+     width: 100%
+     
+   }
+ 
+   footer p{
+    position: relative;
+    bottom: 10px;
+      font-size: 100px;
+     font-family: Arial, black;
+     color: white;
+   }
